@@ -12,3 +12,10 @@ Les données recueillies sont transmises via le satellite Echostar. À la récep
 
 Les données sont ensuite enregistrées dans un fichier Excel (format .xlsx) sous la forme suivante :
  Date , Heure , Entrées : 00 ,Sorties : 00
+
+
+ Resumé du fonctionnement
+ 
+lorsque le capteur PIR detecte une présence , il active le systeme , le dispositif de comptage se met ensuite en place pendant un temps fixé. L’entrée ou la sortie d’une personne n’est prise en compte que si elle passe successivement devant les deux capteurs à ultrasons, permettant ainsi de déterminer avec précision le sens du passage et d'eviter les erreurs de comptage. Une fois le temps ecoulé le système de comptage se met en pause pour laisser place à l'envoi et la reception des données grace satellite. 
+
+Pour une explication plus détaillée, veuillez consulter le document intitulé "Last Presentation".
