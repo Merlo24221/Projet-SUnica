@@ -14,8 +14,26 @@ Les données sont ensuite enregistrées dans un fichier Excel (format .xlsx) sou
  Date , Heure , Entrées : 00 ,Sorties : 00
 
 
+ 
+
  Resumé du fonctionnement
  
 lorsque le capteur PIR detecte une présence , il active le systeme , le dispositif de comptage se met ensuite en place pendant un temps fixé. L’entrée ou la sortie d’une personne n’est prise en compte que si elle passe successivement devant les deux capteurs à ultrasons, permettant ainsi de déterminer avec précision le sens du passage et d'eviter les erreurs de comptage. Une fois le temps ecoulé le système de comptage se met en pause pour laisser place à l'envoi et la reception des données grace satellite. 
 
 Pour une explication plus détaillée, veuillez consulter le document intitulé "Last Presentation".
+
+
+
+
+
+
+
+Materiels utilisés
+
+![materiels](https://github.com/user-attachments/assets/7a26daa5-8bda-4c7d-83c8-41e6a754f5e8)
+
+
+
+Pour en savoir plus sur la carte utilisée cliquez sur le lien ci-dessous
+
+https://github.com/FabienFerrero/SUniCA/blob/main/README.md
